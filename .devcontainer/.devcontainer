@@ -1,0 +1,4 @@
+FROM mcr.microsoft.com/devcontainers/python:3.9
+
+# Install Django
+RUN pip install django
